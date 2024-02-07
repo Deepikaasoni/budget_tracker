@@ -16,7 +16,7 @@ export const AddTransaction = () => {
       }
       addTransaction(newTransaction);
     }
-
+ 
   return (
     <div>
       <h3>Add new transaction</h3>

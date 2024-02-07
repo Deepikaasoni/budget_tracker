@@ -3,9 +3,9 @@ import {GlobalContext} from '../Context/GlobalState';
 
 
 export const IncomeExpenses = () => {
-  const {transaction} = useContext(GlobalContext); 
+  const {transactions} = useContext(GlobalContext); 
 
-  const amounts = transaction.map(transaction => transaction.amount);
+  const amounts = transactions.map(transaction => transaction.amount);
  
 
   const income = amounts
